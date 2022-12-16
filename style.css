@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+body{
+font-family: 'poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.header-container{
+    width: 88%;
+    margin: auto;
+}
+header{
+    position: relative;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 420px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav1{
+    color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.first-logo{
+    display: flex;
+    align-items: center;
+}
+.first-logo p{
+    margin-left: 5px;
+}.first-logo p:hover{cursor: pointer;}
+.nav1 ul{
+    list-style: none;
+    display: flex;
+}
+.nav1 ul li{
+    padding: 7px;
+    margin-right: 23px;
+    font-weight: 100;
+}
+.nav1 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.header-body{
+    position: absolute;
+}
+.header-body img{
+    height: 60px;
+    padding-left: 280px;
+}
+.header-centre{
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+.header-body p{
+    font-size: 40px;
+    margin-top: 18px;
+}
+.main-box{
+    overflow: hidden;
+    position: absolute;
+    width: 817px;
+    height:50px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-left: 230px;
+    margin-top: 165px;
+}
+select{
+    color: grey;
+    width: 200px;
+    border: none;
+    height: 100%;
+}
+input{
+    color: black;
+    padding-top: 10px;
+    border: none;
+    width: 400px;
+    height: 90%;
+    align-items: center;
+}
+.first-box i{
+    margin-top:15px;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 20px;
+    color: rgb(194, 97, 97);
+    font-size: 20px;
+}
+.second-box i{
+    color: grey;
+    
+}
+select:focus{
+    outline: none;
+}
+input:focus{
+    outline: none;
+}
+.line{
+    padding-top: 15px;
+    color: grey;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+.middle-main{
+    height: 300px;
+}
+.middle-container{
+    border:1px solid rgb(222, 215, 215);
+    margin-left: 81px;
+    margin-top: 50px ;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 550px;
+    transition: all .2s ease-in-out;
+}
+
+.img-middle{
+    
+    width: 550px;
+    height: 140px;
+    border-radius: 10px;
+}
+.img-middle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text-middle{
+    width: 100%;
+}
+.text-middle p{
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.middle-container:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.middletwo{
+    height: 515px;
+    margin-left: 83px; 
+}
+.middletwo p{
+    font-size: 35px;
+    color: rgb(65, 59, 59);
+    font-weight: 100;
+}
+.grid-1{
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    height: 80px;
+    margin-top: 10px;
+    margin-right: 100px;
+    
+}
+.grid-1 .column1{
+    border: 0.5px solid rgb(221, 209, 209);
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+
+}
+
+.para1{
+    font-size: 20px;
+    align-self: center;
+}
+.para1 p{
+    
+    font-size: 20px;
+}
+
+.arrow1{
+    align-self: center;
+}
+.arrow1 p{
+    font-size: 20px;
+}
+.para1 .places{
+    font-size: 15px;
+}
+.column1 .seemore p{
+    font-size: 20px;
+    padding-left: 85px;
+    padding-top: 25px;
+}
+.column1 .downarrow p{
+    font-size: 15px;
+    padding-right: 115px;
+    padding-top: 29px;
+}
+.column1:hover{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.middlethree-main{
+    height: 500px;
+    width: 100%;
+   
+}
+.threeleft{
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+.threeleft img{
+    padding-top: 42px;
+    padding-left: 260px;
+    height: 65%;
+}
+.threeright{
+    height: 100%;
+    width: 38%;
+    float: left;
+}
+.paragraph{
+    height: 30%;
+    padding-left: 45px;
+
+}
+.paragraph p{
+    padding-bottom: 15px;
+}
+.checkboxes{
+    margin-top: 5px;
+    padding-left: 45px;
+    height: 10%;
+}
+span input{
+    vertical-align: middle;
+    padding-top: 5px;
+    height: 15px;
+    width: 15px;
+}
+span label{
+    color: rgb(54, 54, 54);
+    vertical-align: middle;
+    padding-right: 40px;
+    padding-left: 4px;
+}
+
+.emaildetails{
+    padding-left: 45px;
+}
+.emaildetails input{
+    border: 1px solid rgb(107, 100, 100);
+    width: 288px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.emaildetails button{
+    height: 50px;
+    margin-left: 9px;
+    background-color: rgb(239, 79, 95);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 129px;
+}
+.emaildetails button:hover{
+    cursor: pointer;
+    background-color: rgb(213, 54, 70);
+}
+.download{
+    margin-top: 25px;
+    color: rgb(156, 156, 156);
+    padding-left: 45px;
+    font-size: 13px;
+}
+
+.appstorelink{
+    padding-left: 45px;
+}
+.appstorelink img{
+    padding-top: 10px;
+    height: 50px;
+    padding-right: 15px;
+}
+.appstorelink img:hover{
+    cursor: pointer;
+}
+
+.middlefour{
+    height: 400px;
+}
+.middlefour .classp{
+    font-size: 30px;
+    margin-left: 85px;
+    margin-bottom: 15px;
+}
+.gridtwo{
+   
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-bottom: 27px;
+}
+.gridtwo:hover{
+    cursor: pointer;
+}
+.four1{
+    border: 1px solid rgb(222, 220, 220);
+    margin-top: 5px; 
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 21px;
+    border-radius: 7px;
+    font-weight: 100;
+}
+.four1 .sentence{
+    color: rgb(28, 28, 28);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.second{
+    padding-right: 22px;
+    padding-bottom: 10px;
+}
+
+.image-text{
+    height: 200px;
+    width: 100%;
+}
+
+.five1{
+    display: flex;
+    margin-top: 37px;
+    margin-left: 80px;
+    height: 50px;
+    justify-content: space-between;
+}
+.five1 .five1-image img{
+    height: 30px;
+}
+.five1-india{
+    padding-bottom: 10px;
+}
+.five1-india .two{
+    margin-right: 87px;
+}
+.five1-india .one{
+    margin-right: 10px;
+    
+}
+.five1-india select{
+    padding-left:20px;
+    font-size: 16px;
+    width: 110px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: black;
+}
+.five1-india select:hover{
+    cursor: pointer;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: red;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-top: 24px;
+    margin-right: 100px;
+    gap: 29px;
+    height: 234px;
+}
+
+.footer1 p{
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.footer1 ul li{
+    list-style: none;
+    padding-left: 0;
+    font-size: 13px;
+    color: grey;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-bottom: 6px;
+}
+.footer1 ul li:hover{
+    cursor: pointer;
+    color: rgb(57, 53, 53);
+}
+.footer1 ul{
+    margin-top: 8px;
+    padding: 0;
+}
+.links{
+    display: flex;
+    height: 40px;
+}
+.links svg{
+    margin-top: 7px;
+    margin-right: 9px;
+}.links svg:hover{
+    cursor: pointer;
+}
+.footer1 img{
+    padding-top: 5px;
+    height: 40px;
+}.footer1 img:hover{
+    cursor: pointer;
+}
+.theEnd{
+    font-size: 12.5px;
+    margin-left: 75px;
+    margin-right: 75px;
+    color: rgb(103, 99, 99);
+    font-weight: lighter;
+    height: 80px;
+}
